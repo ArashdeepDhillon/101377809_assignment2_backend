@@ -1,0 +1,33 @@
+{
+  "name": "101377809_assignment2_backend",
+  "version": "1.0.0",
+  "description": "assignment 2",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArashdeepDhillon/101377809_assignment2_backend.git"
+  },
+  "author": "arash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArashdeepDhillon/101377809_assignment2_backend/issues"
+  },
+  "homepage": "https://github.com/ArashdeepDhillon/101377809_assignment2_backend#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
